@@ -8,8 +8,10 @@
 .syc{
 	background-image: url("../img/fondo.jpg");
     background-size: cover;
+	height: 50vf;
 }
 
-.carousel-inner div[class=="item"] img {
+.carousel-inner div[class^="item"] img {
 	width: auto;
+	
 }
