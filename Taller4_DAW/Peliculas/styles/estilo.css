@@ -1,0 +1,84 @@
+
+*{
+	font-family: 'Verdana';
+}
+
+h1 {
+	font-family: 'Anton', sans-serif;
+	color: #414239;
+	font-size: 4em;
+}
+
+h2 {
+	font-family: 'Lobster', cursive;
+	color: #9e0947;
+	font-size: 2.5em;
+	margin: 5px;
+}
+
+h3 {
+	font-size: 1em;
+	color: #ce105c;
+}
+
+section {
+	padding: 10px;
+}
+.item {
+	border-width: 1px;
+	border-style: dotted;
+	border-color: #d7d8cb;
+	margin: 5px;
+}
+
+.elements-peli{
+	padding: 5px;
+}
+
+img {
+	width: 25%;
+
+
+}
+
+iframe{
+	height: 250px;
+	width: 350px;
+}
+
+
+img:hover{
+	opacity: 0.8;
+}
+
+.texto p{
+	text-align: justify;
+}
+
+li[famoso='principal']{
+	font-weight: bold;
+}
+
+li[famoso='secundario']{
+	font-style: italic;
+}
+
+div.elements-peli{
+	display: inline-flex;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+div.elements-peli img{
+	height: 250px;
+	margin-top: auto;
+	margin-bottom: auto;
+}	
+
+hr {
+	border-color: #000000;
+}
+
+.actores{
+list-style-image: url('https://goo.gl/6hPSSH');
+ }

@@ -1,0 +1,60 @@
+h1 {
+	text-align: center
+}
+
+section > div{
+	border-width: 1pt;
+	border-style: solid;
+	border-color: #cbccc1;
+	padding: 5px;
+	margin-top: 0.5%;
+	margin-bottom: 0.5% 
+}
+
+div.elements-ig {
+	display: inline-flex;
+}
+
+
+.datos {
+	font-size: 15pt;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+img {
+	margin-right: 10px;
+}
+
+div.cajaDatosPersonales > h2{
+	text-align: center;
+}
+
+#estancia{
+	font-style: italic;
+}
+
+div.elements-uni{
+	display: inline-flex;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+div.elements-uni img{
+	height: 250px;
+	margin-top: auto;
+	margin-bottom: auto;
+}	
+
+hr {
+	border-color: #000000;
+}
+
+.habilidades{
+	display: inline-flex;
+}
+
+.habilidad{
+	display: inline-flex;
+}
+
