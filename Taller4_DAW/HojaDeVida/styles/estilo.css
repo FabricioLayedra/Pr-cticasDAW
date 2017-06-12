@@ -45,7 +45,15 @@ div.elements-uni{
 }
 
 div.elements-uni img{
+	width: 250px;
 	height: 250px;
+	margin-top: auto;
+	margin-bottom: auto;
+}	
+
+#licgua{
+	width: 250px;
+	height: auto;
 	margin-top: auto;
 	margin-bottom: auto;
 }	
