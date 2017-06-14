@@ -147,7 +147,8 @@ function mostrarAvances_altern (){
 }
 
 window.onload = function() {
-
+	metodoDarClick();
+	mostrarAvances();
 	/*cargar las dos últimas funciones*/
 	
 	$('#thumb1').click(function(){
