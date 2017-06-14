@@ -54,15 +54,21 @@ function cambiarInnerOutter() {
 function agregarPie() {
 	/*crear un footer*/
 	let footer = document.createElement('footer')
+	/*let footer = $('<footer>');
 
 	/*Agregar la clase: footer y text-center*/
 	footer.setAttribute("class","footer text-center")
+	/* set
+	footer.attr('class', 'footer text-center')*/
+	/*get 
+	var clase = footer.attr('class')*/
 	
 	/*crear un p*/
 	let p = document.createElement('p')
 
 	/*crear texto: CinemaTu*/
 	let text = document.createTextNode('CinemaTu')
+	
 	/*Agregar texto a p*/
 	p.appendChild(text)
 	
