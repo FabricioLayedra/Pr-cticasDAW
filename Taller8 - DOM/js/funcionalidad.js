@@ -101,18 +101,68 @@ function redirigir() {
 	
 }
 
-function medotoDarClick() {
+function metodoDarClick() {
 	/*registrar a cada boton una reacción diferente*/
+	
+	var jumbotron = document.getElementsByClassName('jumbotron')
+	jumbotron[0].onmouseover = function(){
+		alert("¡Ganaste unas entradas!");
+	}
 	
 }
  
 function listenerDarClick() {
 	/*registrar dos listeners al primer boton*/
+	/*mostrar el titulo*/
+	var titulos = document.querySelectorAll('h3.text-center');
+	var botones = document.querySelectorAll('a.btn');
+	for (var i = 0; i < botones.length; i++){
+		let nombre = titulos[i].innerHTML;
+		botones[i].addEventListener('click', function(){
+		alert("Titulo de la Película: "+ nombre);
+		})
 	
+	}
+}
+function mostrarAvances (){
+	var mostrarAvance = document.getElementsByClassName('btn btn-primary');
+	var nombresPelis = document.getElementsByClassName('text-center pelicula');
+	for (var i = 0; i < mostrarAvance.length; i++){
+		/*console.log(nombresPelis[i]);*/
+		let texto = nombresPelis[i].innerHTML;
+		mostrarAvance[i].onclick = function(){
+			alert(texto);
+		}
+	}
+}
+
+function mostrarAvances_altern (){
+	var botones = document.querySelectorAll('a.btn');
+	for (var i = 0; i < botones.length; i++){
+		/*console.log(nombresPelis[i]);*/
+		abuelo = this.parentElement.parentElement;
+		texto = abuelo.getElementsByTagName('h3')[0].innerHTML;
+		alert(texto);
+	}
 }
 
 window.onload = function() {
 
 	/*cargar las dos últimas funciones*/
 	
+	$('#thumb1').click(function(){
+		alert('click en la imagen');
+		return false;
+	});
+	/*
+	$('#thumb1').click(function(event){
+		event.preventDefault();
+		alert('click en la imagen');
+		return false;
+	});
+	*/
+	
+	$('.caption').click(function(){
+		alert('click en caption');
+	});
 }
