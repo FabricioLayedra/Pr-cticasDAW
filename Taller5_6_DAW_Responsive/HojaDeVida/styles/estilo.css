@@ -1,0 +1,102 @@
+* {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+	text-align: center
+}
+
+section > div{
+	border-width: 1pt;
+	border-style: solid;
+	border-color: #cbccc1;
+	padding: 5px;
+	margin-top: 0.5%;
+	margin-bottom: 0.5% 
+}
+
+div.elements-ig {
+	display: inline-flex;
+}
+
+
+.datos {
+	font-size: 15pt;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+img {
+	margin-right: 10px;
+}
+
+div.cajaDatosPersonales > h2{
+	text-align: center;
+}
+
+#estancia{
+	font-style: italic;
+}
+
+div.elements-uni{
+	display: inline-flex;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+div.elements-uni img{
+	width: 250px;
+	height: 250px;
+	margin-top: auto;
+	margin-bottom: auto;
+}	
+
+#licgua{
+	width: 250px;
+	height: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}	
+
+hr {
+	border-color: #000000;
+}
+
+.habilidades{
+	display: inline-flex;
+	margin-left: 150px;
+	margin-right: 100px;
+}
+
+.circle{
+	width:50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: blue;
+}
+
+.circle p{
+	color: white;
+	padding-right: 40%;
+	padding-left: 40%;
+	font-size: 12pt;
+}
+
+.habilidad{
+
+	display: inline-flex;
+	margin-right: 120px;
+	font-size:1em;
+	width: 150px;
+	height: 50px;
+	border-top-right-radius: 30%;
+	border-bottom-right-radius: 30%;
+	border-top-left-radius: 35%;
+	border-bottom-left-radius: 35%;
+	background-color:  lightgray;
+	
+}
+
+.text{
+	padding-left: 10px;
+}

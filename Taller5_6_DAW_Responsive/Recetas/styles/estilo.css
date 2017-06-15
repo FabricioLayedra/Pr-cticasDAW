@@ -1,0 +1,167 @@
+
+*{
+	font-family: 'Verdana';
+}
+
+body {
+	background-image: url('../fondo.png');
+	background-repeat: no-repeat;
+	background-size: 60%;
+	background-position: top left;
+	background-attachment: fixed;
+}
+
+h1 {
+	text-shadow: 0.08em 0.08em #bc8609;
+	color: #d39a0a;
+	font-size: 4em;
+}
+
+#recetas{
+	display: inline-flex;
+}
+
+hr {
+	border-color: #e0d2b1;
+	border-style: dotted;
+}
+
+div~.receta {
+	border-radius: 15%;
+	border-style: solid;
+	margin: 10px;
+}
+
+.receta{
+	width: 20%;
+	background-image: url(../recetitas.jpg);
+
+}
+
+.receta h2 a{
+	font-variant: small-caps;
+	color: #db990a;
+	text-decoration: underline;
+}
+
+.receta h2 a:hover{
+	text-decoration: none;
+	color: #edc163;
+}
+
+.receta h2 a:visited{
+	color: #7c652e;
+}
+
+.receta h3{
+	color: #d69f2a;
+}
+
+.receta p{
+	padding-top: 2px; 
+}
+
+.receta:hover{
+	opacity: 0.7;
+}
+
+.separador {
+	border-style: solid;
+	color: black;
+}
+
+div.elements-rec{
+	display: inline-flex;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+div.elements-rec img{
+	height: 250px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.receton {
+	padding-left: 10px;
+}
+
+.pasos p{
+	text-align: justify;
+	padding-left: 5px;
+}
+
+/*Box Model*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media (max-width : 700px) {
+	
+	body{
+		background-image: none;
+	}
+	
+	h1 {
+		color: black;
+		text-align: center;
+		text-transform: capitalize;
+		font-weight: bold;
+		width: 50%;
+		font-size: 150%;
+	}
+	
+	#recetas{
+		display: block;
+		width: 100%;
+	}
+	.receta{
+		width: inherit;
+		border-radius: 5%;
+	}
+	
+	.receta {
+		display: inline-flex;
+	}
+	.receta p{
+		display: none;
+	}
+	
+	
+
+	.receta h3{
+		align-content: flex-end;
+	}
+
+	div.elements-rec img{
+		height: 250px;
+		width: 100%;
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+
+	.pasos {
+		display: none;
+	}
+	
+	div.elements-rec{
+		display: block;
+		width: 50%;
+	}
+	.item{
+		display: inline-flex;
+	}
+	
+	iframe {
+		width: 100;
+	}
+}
